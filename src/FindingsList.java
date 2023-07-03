@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.TreeMap;
 import java.util.Iterator;
 import java.util.HashSet;
 import java.util.Scanner;
@@ -33,7 +32,7 @@ public class FindingsList {
 
         Thread.sleep(1000);
 
-        TreeMap<String, String> fossilDirectory = new TreeMap<>(String.CASE_INSENSITIVE_ORDER);
+        HashMap<String, String> fossilDirectory = new HashMap<>();
 
         System.out.println("Fossil data downloaded");
 
