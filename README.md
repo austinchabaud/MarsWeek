@@ -1,18 +1,49 @@
-## Getting Started
+# Hackbright Unit 1 Project
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## MVP
+- Mars.java
+- Contains a main method
+- The main method contains a String, int, double, and boolean
+- Include an if-else statement
+- Call the landingCheck function
+  
+- Instantiate a GuessingGame object
 
-## Folder Structure
+- Instantiate a MarsExpedition object
 
-The workspace contains two folders by default, where:
+- Instantiate a FindingsList object
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Has a function called landingCheck
+- The landingCheck function should take in an int and return a boolean
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Has a for loop, that iterates from 0 to n (the value passed into the int parameter)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Has an if-else` statement in the for loop
 
-## Dependency Management
+### GuessingGame.java
+Contains a public constructor called guessingGame
+Use Scanner accept the user’s input
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Has a while loop that contains
+
+a try-catch statement for the user guess
+
+an if-else statement to check if the guess is correct
+
+### MarsExpedition.java
+Contains a public constructor called marsExpedition
+Use Scanner accept the user’s input
+
+Use an if-else statement to produce output depending on user input
+
+### FindingsList.java
+Contains a public constructor called findingsList
+Create an ArrayList with four strings
+
+Remove a string from the ArrayList
+
+Create a Hashmap with three strings
+
+Use Scanner accept the user’s input
+
+Use if-else to check user’s input and output the corresponding value from the HashMap
